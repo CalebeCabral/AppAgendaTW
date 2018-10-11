@@ -3,16 +3,16 @@ body {
 }
 
 .wrapper {
-	padding-top: 50px;
+	padding-top: 60px;
 }
 
 .navbar {
-	padding: .3rem 1rem;
+	padding: .5rem 1rem;
 	position: fixed;
 	display: block;
 	width: 100%;
 	height: auto;
-	z-index: 9999;
+	z-index: 20;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
 
@@ -50,6 +50,10 @@ body {
 	border: none;
 }
 
+#cadastros td:last-child {
+	background-color: #d6eaff;
+}
+
 #cadastros td:not(:first-child) {
 	border-top: 1px solid #dee2e6;
 }
@@ -57,6 +61,33 @@ body {
 .glossary-letter__disabled {
 	cursor: default;
 	user-select: none;
+}
+
+.modal-content {
+	position: absolute;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.modal-header {
+	padding: 1rem 1rem .2rem;
+}
+
+.modal-body {
+	padding: 0;
+}
+
+.modal-body table {
+	margin-bottom: 0;
+}
+
+.modal-footer {
+	padding: 0;
+}
+
+.modal-footer > button {
+	padding: 10px 0;
+	border-radius: 0;
 }
 
 .back-top {
@@ -80,7 +111,7 @@ body {
 		position: fixed;
 		height: 100%;
 		overflow-y: auto;
-		padding-top: 75px;
+		padding-top: 85px;
 		right: 0;
 		bottom: 8px;
 		padding-right: 7px;
