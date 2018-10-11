@@ -17,27 +17,23 @@
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-md bg-primary">
 		<div class="container d-flex justify-content-between">
-			<a href="#" class="navbar-brand text-light"><img src="assets/img/logo_tw_sigla.png" width="45"></a>
+			<div class="d-flex align-items-center">
+				<a href="view_cliente.html" class="navbar-brand text-light">
+					<img src="assets/img/logo_tw_sigla.png" width="40">
+				</a>
+				<h6 class="d-inline-block text-light mb-0">Clientes</h6>
+			</div>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 				<i class="fas fa-bars text-light"></i>
 			</button>
-			<div class="collapse navbar-collapse mt-3 mt-md-0" id="navbarNav">
+			<div class="collapse navbar-collapse my-2" id="navbarNav">
 				<ul class="navbar-nav ml-2 mr-auto">
 					<li class="nav-item">
 						<a href="view_func.html" class="nav-link text-light">Colaboradores</a>
 					</li>
-					<li class="nav-item ml-md-2">
-						<a href="view_cliente.html" class="nav-link text-light">Clientes</a>
-					</li>
-					<li class="nav-item ml-md-2 mr-auto">
+					<!-- <li class="nav-item ml-md-2 mr-auto">
 						<a href="view_fornec.html" class="nav-link text-light">Fornecedores</a>
-					</li>
-				</ul>
-				<hr>
-				<ul class="nav navbar-nav ml-2 mr-4">
-					<li>
-						<a href="login_form.php" class="text-light nav-link"><i class="fas fa-sign-in-alt"></i> Login</a>
-					</li>
+					</li> -->
 				</ul>
 
 			</div>
@@ -47,15 +43,11 @@
 
 	<div class="container wrapper">
 		<div class="col-12 scroll-cont">
-			<div class="row my-3">
-				<div class="col align-items-center clearfix">
-					<h2 class="float-left page-titulo">Colaboradores</h2>
-				</div>
-			</div>
 	
-			<div class="row clearfix mt-3">
+			<div class="row clearfix mt-3 mb-4">
+
 				<div class="col-md-6 col-xs-12 d-md-flex justify-content-start search-filter">
-					<form class="form-inline px-1">
+					<form class="form-inline">
 						<div class="input-group">
 							<div class="input-group-prepend">
 								<label for="searchCli" class="d-none d-md-block ml-2 input-group-text"><i class="fas fa-search"></i></label>
@@ -116,9 +108,9 @@
 		</div>
 	</div>
 
-	<div class="col-1 cont-glossary">
+	<div class="cont-glossary">
 		<div class="glossary d-flex flex-column">
-			<a class="d-md-none glossary-all" href="#"><strong>#</strong></a>
+			<a class="glossary-all" href="#"><strong>#</strong></a>
 			<div class="letters d-flex flex-column">
 				<!-- Letras geradas table-functions.js -->
 			</div>
