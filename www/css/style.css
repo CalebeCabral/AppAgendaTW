@@ -3,11 +3,11 @@ body {
 }
 
 .wrapper {
-	padding-top: 45px;
+	padding-top: 50px;
 }
 
 .navbar {
-	padding: 0 1rem .2rem;
+	padding: .3rem 1rem;
 	position: fixed;
 	display: block;
 	width: 100%;
@@ -25,6 +25,10 @@ body {
 	border-radius: 50px;
 }
 
+#searchCli::placeholder {
+	color: #ababab;
+}
+
 #cadastros {
 	border: none;
 }
@@ -35,11 +39,12 @@ body {
 	border: 1px solid #ececec;
 	border-radius: 20px;
 	overflow: hidden;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-#cadastros tbody tr.shadow {
+/* #cadastros tbody tr.shadow {
 	box-shadow: none !important;
-}
+} */
 
 #cadastros td {
 	border: none;
@@ -75,7 +80,7 @@ body {
 		position: fixed;
 		height: 100%;
 		overflow-y: auto;
-		padding-top: 70px;
+		padding-top: 75px;
 		right: 0;
 		bottom: 8px;
 		padding-right: 7px;
